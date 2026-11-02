@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    max-width: 100%;
+    font-family: TTLakes;
+    background-color: #F8F8F8;
+
+}
+
+.search-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
+    
+}
+
+.search {
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items:center;
+    
+background-color: rgb(255, 228, 189);
+    width: 300px;
+    height: 500px;
+}
+.search-input{
+    width:200px;
+    height:30px;
+    background-color:rgb(177, 170, 148);
+}
+
+.suggestion-item{
+    padding: 10px;
+    border-radius:5px 10px;
+    background-color: rgb(159, 101, 216);
+}
+
+.repositories-results{
+ display:flex;
+    justify-content: center;
+    align-items:center;
+   border-radius:5px 10px;
+    background-color: rgb(190, 124, 255);
+   
+}
