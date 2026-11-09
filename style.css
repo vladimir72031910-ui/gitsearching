@@ -17,7 +17,7 @@ body {
     display:flex;
     justify-content: center;
     align-items:center;
-    
+    margin-top: 30px;
     
 }
 
@@ -29,25 +29,61 @@ body {
     
 background-color: rgb(255, 228, 189);
     width: 300px;
-    height: 500px;
+    height: 800px;
 }
 .search-input{
     width:200px;
     height:30px;
+    margin-top: 35px;
     background-color:rgb(177, 170, 148);
 }
 
 .suggestion-item{
     padding: 10px;
     border-radius:5px 10px;
+    margin-top: 5px;
     background-color: rgb(159, 101, 216);
 }
 
 .repositories-results{
- display:flex;
+    display:flex;
+  flex-direction: column;
     justify-content: center;
     align-items:center;
-   border-radius:5px 10px;
+    margin-top: 15px;
+    border-radius:10px 10px;
+
     background-color: rgb(190, 124, 255);
    
+}
+
+.repository-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    
+     background-color: rgb(101, 9, 193);
+     border-radius:10px 10px;
+      margin-top: 15px;
+      padding-top: 25px;
+    
+
+}
+
+.delete-button{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    margin-top: 10px;
+    position: absolute;
+   top: 1px;
+   right: 3px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    margin-bottom: 2px ;
+    border-radius: 5px;
+    
 }

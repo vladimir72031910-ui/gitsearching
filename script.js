@@ -64,6 +64,7 @@ input.addEventListener('input', debounce(function(){
 
                 const deleteButton = document.createElement('button');
                 deleteButton.textContent = 'x';
+                deleteButton.classList.add('delete-button');
                  repositoryItem.appendChild(deleteButton);
                  deleteButton.addEventListener('click', () => {
                     repositoryItem.remove();
